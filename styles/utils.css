@@ -1,0 +1,80 @@
+/* xs */
+/* @media (min-width: 29.6875rem) {} */
+
+/* sm */
+/* @media (min-width: 40rem) {} */
+
+/* md */
+/* @media (min-width: 48rem) {} */
+
+/* lg */
+/* @media (min-width: 64rem) {} */
+
+/* xl */
+/* @media (min-width: 80rem) {} */
+
+/* 2xl */
+/* @media (min-width: 96rem) {} */
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.section {
+    margin-top: 5rem;
+}
+
+.loading {
+    filter: blur(40px) grayscale(100%);
+}
+
+.loaded {
+    filter: blur(0) grayscale(0);
+    transition: 0.7s ease-in-out;
+}
+
+
+@media (min-width: 29.6875rem) {
+    .container {
+        max-width: 29.6875rem;
+}
+}
+
+@media (min-width: 40rem) {
+    .container {
+        max-width: 40rem;
+}
+}
+
+@media (min-width: 48rem) {
+    .container {
+        max-width: 48rem;
+}
+}
+
+@media (min-width: 64rem) {
+    .container {
+        max-width: 64rem;
+}
+
+.section {
+        margin-top: 10rem;
+}
+}
+
+@media (min-width: 80rem) {
+    .container {
+        max-width: 80rem;
+}
+}
+
+@media (min-width: 96rem) {
+    .container {
+        max-width: 96rem;
+}
+}

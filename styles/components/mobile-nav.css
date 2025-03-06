@@ -1,0 +1,39 @@
+.mobile-nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: none;
+    height: 100dvh;
+    position: absolute;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, .3);
+
+    .mobile__menu{
+        gap: 1em;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mobile__link{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .mobile__line{
+        padding-right: 1.5em;
+        border: 1px solid #fff;
+    }
+
+    .mobile__sun{
+        color: #fff;
+        width: var(--size-2xl);
+        height: var(--size-2xl);
+    }
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncommon '25</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__logo-wrapper">
+                <h2 class="header__logo">Uncommon.org</h2>
+            </div>
+            <ul class="header__menu">
+                <li><a class="header__link" href="#">Home</a></li>
+                <li><a class="header__link" href="#">About</a></li>
+                <li><a class="header__link" href="#">Services</a></li>
+                <li class="header__line"></li>
+                <li>
+                    <button
+                        aria-label="theme-toggle btn"
+                        id="theme-toggle"
+                        class="header__sun" >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                            d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+                            />
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+            <button aria-label="mobile nav button" class="header__bars">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor">
+                    <path
+                        fill-rule="evenodd"
+                        d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                        clip-rule="evenodd"
+                    />
+                </svg>
+              </button>
+        </nav>
+    </header>
+    <!-- Beginning of Mobile Nav -->
+     <div class="mobile-nav">
+        <ul class="mobile__menu">
+            <li><a href="#" class="mobile__link">Home</a></li>
+            <li><a href="#" class="mobile__link">About</a></li>
+            <li><a href="#" class="mobile__link">Services</a></li>
+            <li class="mobile__line"></li>
+            <li>
+                <button
+                        aria-label="theme-toggle btn"
+                        id="theme-toggle"
+                        class="mobile__sun">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                            d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+                            />
+                        </svg>
+                    </button>
+            </li>
+        </ul>
+     </div>
+    <!-- End of Mobile Nav -->
+    <main>
+        <section class="hero container section">
+            <div class="hero__banner">
+                <h2 class="hero__title">Uncommon.org Class <br> Of 2025</h2>
+            </div>
+        </section>
+
+        <section class="cards container section">
+            <h2 class="cards__title">What we do</h2>
+            <div class="cards__wrapper">
+                <div class="card">
+                    <div class="card__image"><img class="lazy loading" src="https://fakeimg.pl/640x320" data-src="/design.jpg" alt=""></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quis.</p>
+                    <h3 card__title>Graphics Design</h3>
+                </div>
+
+                <div class="card">
+                    <div class="card__image"><img class="lazy loading" src="https://fakeimg.pl/640x320" data-src="/dev.jpg" alt=""></div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <h3 card__title>Software  Development</h3>
+                </div>
+
+                <div class="card">
+                    <div class="card__image"><img class="lazy loading" src="https://fakeimg.pl/640x320" data-src="/marketing.jpg" alt=""></div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In et ab vitae.</p>
+                    <h3 card__title>Digital Marketing</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section">
+        <div class="ul footer__menu">
+            <li><a class="footer__link" href="#">Home</a></li>
+            <li><a class="footer__link" href="#">About</a></li>
+            <li><a class="footer__link" href="#">Sevices</a></li>
+        </div>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

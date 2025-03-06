@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    height: 25dvh;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-blue);
+
+    .footer__menu{
+        gap: 2em;
+        flex-wrap: wrap;
+        display: flex;
+
+        .footer__link{
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
