@@ -34,15 +34,15 @@ html {
     scroll-behavior: smooth;
 }
 
-.light-mode {
-    --clr-white: #000;
+.dark-mode{
     --clr-black: #fff;
+    --clr-white: #000;
 }
 
 body {
     font-family: Chillax;
-    color: var(--clr-white);
-    background-color: var(--clr-black);
+    color: var(--clr-black);
+    background-color: var(--clr-white);
 }
 
 img,
